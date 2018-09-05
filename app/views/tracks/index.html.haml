@@ -1,30 +1,42 @@
-%h1 Listing tracks
+.login
+  .container.text-center.mt-5.mb-5
+    .container
+      .container
+        .container
+          .container
+            .container
+              .container
+                .container
+                  = link_to 'New Track', new_track_path, class: 'btn btn-primary btn-lg btn-block new_track'
 
-%table
-  %thead
-    %tr
-      %th Track name
-      %th Track description
-      %th Track image
-      %th Track audio
-      %th Track duration
-      %th Track metering levels
-      %th
-      %th
-
-  %tbody
-    - @tracks.each do |track|
-      %tr
-        %td= track.track_name
-        %td= track.track_description
-        %td= track.track_image
-        %td= track.track_audio
-        %td= track.track_duration
-        %td= track.track_metering_levels
-        %td= link_to 'Show', track
-        %td= link_to 'Edit', edit_track_path(track)
-        %td= link_to 'Destroy', track, method: :delete, data: { confirm: 'Are you sure?' }
-
-%br
-
-= link_to 'New Track', new_track_path
+  .container
+    .row
+      - @tracks.each do |track|
+        .col-lg-12.text-center.mt-5.font-weight-bold
+          Track name
+        .col-lg-12.text-center
+          = track.track_name
+        .col-lg-12.text-center.font-weight-bold
+          Track Description
+        .col-lg-12.text-center
+          = track.track_description
+        .col-lg-12.text-center.font-weight-bold
+          Track Image
+        .col-lg-12.text-center
+          = link_to track.track_image, track.track_image
+        .col-lg-12.text-center.font-weight-bold
+          Track Audio
+        .col-lg-12.text-center
+          = link_to track.track_audio, track.track_audio
+        .col-lg-12.text-center.font-weight-bold
+          Track Duration
+        .col-lg-12.text-center
+          = track.track_duration
+        .col-lg-12.text-center.font-weight-bold
+          Track Metering Levels
+        .col-lg-12.text-center
+          = track.track_metering_levels
+        .col-lg-12.text-center.mt-5.mb-5
+          = link_to 'Show', track, class: 'btn btn-primary btn-lg'
+          = link_to 'Edit', edit_track_path(track), class: 'btn btn-primary btn-lg '
+          = link_to 'Delete', track, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-primary btn-lg'

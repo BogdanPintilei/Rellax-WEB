@@ -5,24 +5,28 @@
       %ul
         - @track.errors.full_messages.each do |message|
           %li= message
+  .login
+    .container.text-center
+      %form
+        .form-group
+          %label{:for => "exampleInputEmail1"} Track Name
+          = f.text_field :track_name, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Track Description
+          = f.text_field :track_description, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Track Image
+          = f.text_field :track_image, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Track Audio
+          = f.text_field :track_audio, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Track Duration
+          = f.text_field :track_duration, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Track Metering Levels
+          = f.text_field :track_metering_levels, class: 'form-control'
 
-  .field
-    = f.label :track_name
-    = f.text_field :track_name
-  .field
-    = f.label :track_description
-    = f.text_field :track_description
-  .field
-    = f.label :track_image
-    = f.text_field :track_image
-  .field
-    = f.label :track_audio
-    = f.text_field :track_audio
-  .field
-    = f.label :duration
-    = f.number_field :track_duration
-  .field
-    = f.label :track_metering_levels
-    = f.text_field :track_metering_levels
-  .actions
-    = f.submit 'Save'
+      .col-lg-12.mb-5
+        .row.actions
+          = f.submit 'Save', class: 'btn btn-primary btn-lg btn-block'

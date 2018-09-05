@@ -5,21 +5,24 @@
       %ul
         - @fact.errors.full_messages.each do |message|
           %li= message
-
-  .field
-    = f.label :fact_title
-    = f.text_field :fact_title
-  .field
-    = f.label :fact_category
-    = f.text_field :fact_category
-  .field
-    = f.label :fact_content
-    = f.text_field :fact_content
-  .field
-    = f.label :fact_image
-    = f.text_field :fact_image
-  .field
-    = f.label :track_id
-    = f.number_field :track_id
-  .actions
-    = f.submit 'Save'
+  .login
+    .container.text-center
+      %form
+        .form-group
+          %label{:for => "exampleInputEmail1"} Fact Name
+          = f.text_field :fact_title, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Fact Category
+          = f.text_field :fact_category, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Fact Content
+          = f.text_field :fact_content, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Fact Image
+          = f.text_field :fact_image, class: 'form-control'
+        .form-group
+          %label{:for => "exampleInputEmail1"} Track ID
+          = f.number_field :track_id, class: 'form-control'
+      .col-lg-12.mb-5
+        .row.actions
+          = f.submit 'Save', class: 'btn btn-primary btn-lg btn-block'

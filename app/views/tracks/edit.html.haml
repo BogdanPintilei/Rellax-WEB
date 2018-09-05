@@ -2,6 +2,7 @@
 
 = render 'form'
 
-= link_to 'Show', @track
-\|
-= link_to 'Back', tracks_path
+.container.text-center
+  = link_to 'Show', @track, class: 'btn btn-primary btn-lg '
+  \|
+  = link_to 'Back', tracks_path, class: 'btn btn-primary btn-lg '

@@ -2,7 +2,7 @@
 
 Rails.application.routes.draw do
   resources :facts
-  root to: 'layouts#homepage'
+  root to: 'tracks#index'
 
   devise_for :users
 

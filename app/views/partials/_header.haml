@@ -1,14 +1,14 @@
 - if user_signed_in?
-  %nav.navbar.navbar-expand-lg.navbar-light.bg-light.navbar-background-color
+  %nav.navbar.navbar-expand-lg.navbar-light.navbar-background-color
     .container
-      = link_to "Rellax", root_path, class: 'nav-link'
       %button.navbar-toggler{"aria-controls" => "navbarSupportedContent", "aria-expanded" => "false", "aria-label" => "Toggle navigation", "data-target" => "#navbarSupportedContent", "data-toggle" => "collapse", :type => "button"}
         %span.navbar-toggler-icon
       #navbarSupportedContent.collapse.navbar-collapse
         %ul.navbar-nav.mr-auto
           %li.nav-item.active
             = link_to "Tracks", tracks_path, class: 'nav-link'
-          %li.nav-item
+          %li.nav-item.active
             = link_to "Facts", facts_path, class: 'nav-link'
-          %li.nav-item
+        %ul.navbar-nav
+          %li.nav-item.active
             = link_to "Log out", destroy_user_session_path, class: 'nav-link', method: :delete
