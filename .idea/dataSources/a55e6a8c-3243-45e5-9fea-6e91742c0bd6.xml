@@ -122,14 +122,14 @@
       <Owner>rares</Owner>
     </database>
     <database id="31" parent="1" name="rellax_development">
-      <ObjectId>87360</ObjectId>
+      <ObjectId>87421</ObjectId>
       <Owner>rares</Owner>
       <IntrospectionStateNumber>24</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </database>
     <database id="32" parent="1" name="rellax_test">
-      <ObjectId>87361</ObjectId>
+      <ObjectId>87422</ObjectId>
       <Owner>rares</Owner>
     </database>
     <database id="33" parent="1" name="sabau_development">
@@ -238,8 +238,8 @@
       <ObjectId>2200</ObjectId>
       <Comment>standard public schema</Comment>
       <Owner>postgres</Owner>
-      <IntrospectionTimestamp>2018-09-05.21:51:21.017</IntrospectionTimestamp>
-      <IntrospectionStateNumber>110774</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2018-09-05.22:15:41.793</IntrospectionTimestamp>
+      <IntrospectionStateNumber>110788</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -268,82 +268,82 @@
       <Comment>block range index (BRIN) access method</Comment>
     </access-method>
     <sequence id="62" parent="55" name="facts_id_seq">
-      <ObjectId>87404</ObjectId>
+      <ObjectId>87465</ObjectId>
       <Owner>rares</Owner>
-      <StateNumber>110772</StateNumber>
+      <StateNumber>110786</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
     <sequence id="63" parent="55" name="tracks_id_seq">
-      <ObjectId>87393</ObjectId>
+      <ObjectId>87454</ObjectId>
       <Owner>rares</Owner>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
     <sequence id="64" parent="55" name="users_id_seq">
-      <ObjectId>87378</ObjectId>
+      <ObjectId>87439</ObjectId>
       <Owner>rares</Owner>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <BelongsToColumn>1</BelongsToColumn>
     </sequence>
     <table id="65" parent="55" name="ar_internal_metadata">
-      <ObjectId>87370</ObjectId>
+      <ObjectId>87431</ObjectId>
       <Owner>rares</Owner>
-      <StateNumber>110769</StateNumber>
+      <StateNumber>110783</StateNumber>
     </table>
     <table id="66" parent="55" name="facts">
-      <ObjectId>87406</ObjectId>
+      <ObjectId>87467</ObjectId>
       <Owner>rares</Owner>
-      <StateNumber>110773</StateNumber>
+      <StateNumber>110787</StateNumber>
     </table>
     <table id="67" parent="55" name="schema_migrations">
-      <ObjectId>87362</ObjectId>
+      <ObjectId>87423</ObjectId>
       <Owner>rares</Owner>
-      <StateNumber>110768</StateNumber>
+      <StateNumber>110782</StateNumber>
     </table>
     <table id="68" parent="55" name="tracks">
-      <ObjectId>87395</ObjectId>
+      <ObjectId>87456</ObjectId>
       <Owner>rares</Owner>
-      <StateNumber>110774</StateNumber>
+      <StateNumber>110788</StateNumber>
     </table>
     <table id="69" parent="55" name="users">
-      <ObjectId>87380</ObjectId>
+      <ObjectId>87441</ObjectId>
       <Owner>rares</Owner>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
     </table>
     <column id="70" parent="65" name="key">
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110769</StateNumber>
+      <StateNumber>110783</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="71" parent="65" name="value">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110769</StateNumber>
+      <StateNumber>110783</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="72" parent="65" name="created_at">
       <Position>3</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110769</StateNumber>
+      <StateNumber>110783</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="73" parent="65" name="updated_at">
       <Position>4</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110769</StateNumber>
+      <StateNumber>110783</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="74" parent="65" name="ar_internal_metadata_pkey">
-      <ObjectId>87376</ObjectId>
+      <ObjectId>87437</ObjectId>
       <ColNames>key</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="75" parent="65" name="ar_internal_metadata_pkey">
-      <ObjectId>87377</ObjectId>
+      <ObjectId>87438</ObjectId>
       <ColNames>key</ColNames>
       <UnderlyingIndexName>ar_internal_metadata_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -352,7 +352,7 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110772</StateNumber>
+      <StateNumber>110786</StateNumber>
       <DefaultExpression>nextval(&apos;facts_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
       <SequenceName>facts_id_seq</SequenceName>
@@ -360,66 +360,66 @@
     <column id="77" parent="66" name="fact_title">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110772</StateNumber>
+      <StateNumber>110786</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="78" parent="66" name="fact_category">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110772</StateNumber>
+      <StateNumber>110786</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="79" parent="66" name="fact_content">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110772</StateNumber>
+      <StateNumber>110786</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="80" parent="66" name="fact_image">
       <Position>5</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110772</StateNumber>
+      <StateNumber>110786</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="81" parent="66" name="created_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110772</StateNumber>
+      <StateNumber>110786</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="82" parent="66" name="updated_at">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110772</StateNumber>
+      <StateNumber>110786</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="83" parent="66" name="track_id">
       <Position>8</Position>
       <DataType>bigint|0s</DataType>
-      <StateNumber>110773</StateNumber>
+      <StateNumber>110787</StateNumber>
       <TypeId>20</TypeId>
     </column>
     <index id="84" parent="66" name="facts_pkey">
-      <ObjectId>87413</ObjectId>
+      <ObjectId>87474</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="85" parent="66" name="index_facts_on_track_id">
-      <ObjectId>87415</ObjectId>
+      <ObjectId>87476</ObjectId>
       <ColNames>track_id</ColNames>
     </index>
     <key id="86" parent="66" name="facts_pkey">
-      <ObjectId>87414</ObjectId>
+      <ObjectId>87475</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>facts_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <foreign-key id="87" parent="66" name="fk_rails_840ad40446">
-      <ObjectId>87416</ObjectId>
+      <ObjectId>87477</ObjectId>
       <ColNames>track_id</ColNames>
-      <RefTableId>87395</RefTableId>
+      <RefTableId>87456</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>tracks</RefTableName>
       <RefKeyName>tracks_pkey</RefKeyName>
@@ -429,16 +429,16 @@
       <Position>1</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110768</StateNumber>
+      <StateNumber>110782</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <index id="89" parent="67" name="schema_migrations_pkey">
-      <ObjectId>87368</ObjectId>
+      <ObjectId>87429</ObjectId>
       <ColNames>version</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="90" parent="67" name="schema_migrations_pkey">
-      <ObjectId>87369</ObjectId>
+      <ObjectId>87430</ObjectId>
       <ColNames>version</ColNames>
       <UnderlyingIndexName>schema_migrations_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -447,7 +447,7 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <DefaultExpression>nextval(&apos;tracks_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
       <SequenceName>tracks_id_seq</SequenceName>
@@ -455,60 +455,60 @@
     <column id="92" parent="68" name="track_name">
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="93" parent="68" name="track_description">
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="94" parent="68" name="track_image">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="95" parent="68" name="track_audio">
       <Position>5</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="96" parent="68" name="track_metering_levels">
       <Position>6</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="97" parent="68" name="created_at">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="98" parent="68" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110771</StateNumber>
+      <StateNumber>110785</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="99" parent="68" name="track_duration">
       <Position>9</Position>
-      <DataType>varchar|0s</DataType>
-      <StateNumber>110774</StateNumber>
-      <TypeId>1043</TypeId>
+      <DataType>double precision|0s</DataType>
+      <StateNumber>110788</StateNumber>
+      <TypeId>701</TypeId>
     </column>
     <index id="100" parent="68" name="tracks_pkey">
-      <ObjectId>87402</ObjectId>
+      <ObjectId>87463</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="101" parent="68" name="tracks_pkey">
-      <ObjectId>87403</ObjectId>
+      <ObjectId>87464</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>tracks_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
@@ -517,7 +517,7 @@
       <Position>1</Position>
       <DataType>bigint|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <DefaultExpression>nextval(&apos;users_id_seq&apos;::regclass)</DefaultExpression>
       <TypeId>20</TypeId>
       <SequenceName>users_id_seq</SequenceName>
@@ -526,7 +526,7 @@
       <Position>2</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
@@ -534,59 +534,59 @@
       <Position>3</Position>
       <DataType>varchar|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <DefaultExpression>&apos;&apos;::character varying</DefaultExpression>
       <TypeId>1043</TypeId>
     </column>
     <column id="105" parent="69" name="reset_password_token">
       <Position>4</Position>
       <DataType>varchar|0s</DataType>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <TypeId>1043</TypeId>
     </column>
     <column id="106" parent="69" name="reset_password_sent_at">
       <Position>5</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="107" parent="69" name="remember_created_at">
       <Position>6</Position>
       <DataType>timestamp|0s</DataType>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="108" parent="69" name="created_at">
       <Position>7</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <column id="109" parent="69" name="updated_at">
       <Position>8</Position>
       <DataType>timestamp|0s</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>110770</StateNumber>
+      <StateNumber>110784</StateNumber>
       <TypeId>1114</TypeId>
     </column>
     <index id="110" parent="69" name="users_pkey">
-      <ObjectId>87389</ObjectId>
+      <ObjectId>87450</ObjectId>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="111" parent="69" name="index_users_on_email">
-      <ObjectId>87391</ObjectId>
+      <ObjectId>87452</ObjectId>
       <ColNames>email</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="112" parent="69" name="index_users_on_reset_password_token">
-      <ObjectId>87392</ObjectId>
+      <ObjectId>87453</ObjectId>
       <ColNames>reset_password_token</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="113" parent="69" name="users_pkey">
-      <ObjectId>87390</ObjectId>
+      <ObjectId>87451</ObjectId>
       <ColNames>id</ColNames>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
