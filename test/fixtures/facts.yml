@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fact_title: MyString
+  fact_category: MyString
+  fact_content: MyString
+  fact_image: MyString
+  track_id: MyString
+
+two:
+  fact_title: MyString
+  fact_category: MyString
+  fact_content: MyString
+  fact_image: MyString
+  track_id: MyString

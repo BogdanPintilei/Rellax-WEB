@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Track name:
+  = @track.track_name
+%p
+  %b Track description:
+  = @track.track_description
+%p
+  %b Track image:
+  = @track.track_image
+%p
+  %b Track audio:
+  = @track.track_audio
+%p
+  %b Track metering levels:
+  = @track.track_metering_levels
+
+= link_to 'Edit', edit_track_path(@track)
+\|
+= link_to 'Back', tracks_path

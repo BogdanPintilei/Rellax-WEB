@@ -1,0 +1,29 @@
+%h1 Listing facts
+
+%table
+  %thead
+    %tr
+      %th Fact title
+      %th Fact category
+      %th Fact content
+      %th Fact image
+      %th Track
+      %th
+      %th
+      %th
+
+  %tbody
+    - @facts.each do |fact|
+      %tr
+        %td= fact.fact_title
+        %td= fact.fact_category
+        %td= fact.fact_content
+        %td= fact.fact_image
+        %td= fact.track_id
+        %td= link_to 'Show', fact
+        %td= link_to 'Edit', edit_fact_path(fact)
+        %td= link_to 'Destroy', fact, method: :delete, data: { confirm: 'Are you sure?' }
+
+%br
+
+= link_to 'New Fact', new_fact_path

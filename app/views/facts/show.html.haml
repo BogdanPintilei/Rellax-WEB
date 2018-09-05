@@ -1,0 +1,21 @@
+%p#notice= notice
+
+%p
+  %b Fact title:
+  = @fact.fact_title
+%p
+  %b Fact category:
+  = @fact.fact_category
+%p
+  %b Fact content:
+  = @fact.fact_content
+%p
+  %b Fact image:
+  = @fact.fact_image
+%p
+  %b Track:
+  = @fact.track_id
+
+= link_to 'Edit', edit_fact_path(@fact)
+\|
+= link_to 'Back', facts_path

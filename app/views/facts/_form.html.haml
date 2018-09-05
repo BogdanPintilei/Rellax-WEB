@@ -1,0 +1,25 @@
+= form_for @fact do |f|
+  - if @fact.errors.any?
+    #error_explanation
+      %h2= "#{pluralize(@fact.errors.count, "error")} prohibited this fact from being saved:"
+      %ul
+        - @fact.errors.full_messages.each do |message|
+          %li= message
+
+  .field
+    = f.label :fact_title
+    = f.text_field :fact_title
+  .field
+    = f.label :fact_category
+    = f.text_field :fact_category
+  .field
+    = f.label :fact_content
+    = f.text_field :fact_content
+  .field
+    = f.label :fact_image
+    = f.text_field :fact_image
+  .field
+    = f.label :track_id
+    = f.text_field :track_id
+  .actions
+    = f.submit 'Save'
