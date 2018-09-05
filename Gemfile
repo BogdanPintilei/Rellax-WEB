@@ -63,7 +63,9 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'active_model_serializers', '~> 0.10.7'
 gem 'apipie-rails'
+gem 'aws-sdk', '~> 2.6.10'
 gem 'bootstrap', '~> 4.1.3'
 gem 'devise'
 gem 'haml-rails', '~> 1.0'
+gem 'paperclip', '~> 5.0.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
