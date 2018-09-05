@@ -1,32 +1,31 @@
-.login
-  .container.text-center.mt-5.mb-5
+.container.text-center.mt-5.mb-5
+  .container
     .container
       .container
         .container
           .container
             .container
               .container
-                .container
-                  = link_to 'New Fact', new_fact_path, class: 'btn btn-primary btn-lg btn-block new_track'
+                = link_to 'New Fact', new_fact_path, class: 'btn btn-primary btn-lg btn-block new_track'
 
-  - @facts.each do |fact|
-    .col-lg-12.text-center.mt-5.font-weight-bold
-      Fact name
-    .col-lg-12.text-center
-      = fact.fact_title
-    .col-lg-12.text-center.font-weight-bold
-      Fact Category
-    .col-lg-12.text-center
-      = fact.fact_category
-    .col-lg-12.text-center.font-weight-bold
-      Fact Content
-    .col-lg-12.text-center
-      = fact.fact_content
-    .col-lg-12.text-center.font-weight-bold
-      Fact Image
-    .col-lg-12.text-center
-      = link_to fact.fact_image, fact.fact_image
-    .col-lg-12.text-center.mt-5.mb-5
-      = link_to 'Show', fact, class: 'btn btn-primary btn-lg'
-      = link_to 'Edit', edit_fact_path(fact), class: 'btn btn-primary btn-lg '
-      = link_to 'Delete', fact, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-primary btn-lg'
+- @facts.each do |fact|
+  .col-lg-12.text-center.mt-5.font-weight-bold
+    Fact name
+  .col-lg-12.text-center
+    = fact.fact_title
+  .col-lg-12.text-center.font-weight-bold
+    Fact Category
+  .col-lg-12.text-center
+    = fact.fact_category
+  .col-lg-12.text-center.font-weight-bold
+    Fact Content
+  .col-lg-12.text-center
+    = fact.fact_content
+  .col-lg-12.text-center.font-weight-bold
+    Fact Image
+  .col-lg-12.text-center
+    = link_to fact.fact_image, fact.fact_image
+  .col-lg-12.text-center.mt-5.mb-5
+    = link_to 'Show', fact, class: 'btn btn-primary btn-lg'
+    = link_to 'Edit', edit_fact_path(fact), class: 'btn btn-primary btn-lg '
+    = link_to 'Delete', fact, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-primary btn-lg'

@@ -1,33 +1,32 @@
-.login
-  .container
-    .row
-      .col-lg-12.text-center.mt-5.font-weight-bold
-        Track name
-      .col-lg-12.text-center
-        = @track.track_name
-      .col-lg-12.text-center.font-weight-bold
-        Track Description
-      .col-lg-12.text-center
-        = @track.track_description
-      .col-lg-12.text-center.font-weight-bold
-        Track Image
-      .col-lg-12.text-center
-        = link_to @track.track_image, @track.track_image
-      .col-lg-12.text-center.font-weight-bold
-        Track Audio
-      .col-lg-12.text-center
-        = link_to @track.track_audio, @track.track_audio
-      .col-lg-12.text-center.font-weight-bold
-        Track Duration
-      .col-lg-12.text-center
-        = @track.track_duration
-      .col-lg-12.text-center.font-weight-bold
-        Track Metering Levels
-      .col-lg-12.text-center
-        = @track.track_metering_levels
-      .col-lg-12.text-center.mt-5.mb-5
+.container
+  .row
+    .col-lg-12.text-center.mt-5.font-weight-bold
+      Track name
+    .col-lg-12.text-center
+      = @track.track_name
+    .col-lg-12.text-center.font-weight-bold
+      Track Description
+    .col-lg-12.text-center
+      = @track.track_description
+    .col-lg-12.text-center.font-weight-bold
+      Track Image
+    .col-lg-12.text-center
+      = link_to @track.track_image, @track.track_image
+    .col-lg-12.text-center.font-weight-bold
+      Track Audio
+    .col-lg-12.text-center
+      = link_to @track.track_audio, @track.track_audio
+    .col-lg-12.text-center.font-weight-bold
+      Track Duration
+    .col-lg-12.text-center
+      = @track.track_duration
+    .col-lg-12.text-center.font-weight-bold
+      Track Metering Levels
+    .col-lg-12.text-center
+      = @track.track_metering_levels
+    .col-lg-12.text-center.mt-5.mb-5
 
 .container.text-center.mt-5.mb-5
-  = link_to 'Edit', edit_track_path(@track), class: 'btn btn-primary btn-lg'
-  \|
-  = link_to 'Back', tracks_path, class: 'btn btn-primary btn-lg'
+= link_to 'Edit', edit_track_path(@track), class: 'btn btn-primary btn-lg'
+\|
+= link_to 'Back', tracks_path, class: 'btn btn-primary btn-lg'
