@@ -56,7 +56,7 @@ class TracksController < ApplicationController
     track_params = params[:track]
     track_params[:track_metering_levels] = track_params[:track_metering_levels].split(',') || []
 
-    track_params.slice!(:track_name, :track_description, :track_image, :track_audio, :track_metering_levels).permit!
+    track_params.slice!(:track_name, :track_description, :track_image, :track_audio, :track_metering_levels, :track_duration).permit!
 
     track_params[:track_metering_levels] = track_params[:track_metering_levels].map(&:to_f)
 

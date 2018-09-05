@@ -67,5 +67,6 @@ gem 'aws-sdk', '~> 2.6.10'
 gem 'bootstrap', '~> 4.1.3'
 gem 'devise'
 gem 'haml-rails', '~> 1.0'
+gem 'jquery-rails'
 gem 'paperclip', '~> 5.0.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
