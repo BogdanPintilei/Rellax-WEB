@@ -69,4 +69,5 @@ gem 'devise'
 gem 'haml-rails', '~> 1.0'
 gem 'jquery-rails'
 gem 'paperclip', '~> 5.0.0'
+gem 'rack-cors', :require => 'rack/cors'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
