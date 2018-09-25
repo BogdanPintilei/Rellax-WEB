@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6404406-7757-473f-bed5-8ab263491970" name="Default Changelist" comment="Fix design issues">
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/rellax.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rellax.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -203,31 +201,81 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="1639355416">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="rb" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Ruby" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="rb" value="154" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Ruby" value="154" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="Rellax-WEB" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/application.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/config/application.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="165">
+                  <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Gemfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1065">
+                  <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/db/schema.rb">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -296,6 +344,7 @@
         <option value="$PROJECT_DIR$/config/initializers/cors.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/db/seeds.rb" />
       </list>
     </option>
   </component>
@@ -317,11 +366,11 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="1248" />
-    <option name="y" value="1465" />
-    <option name="width" value="960" />
-    <option name="height" value="1055" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="-460" />
+    <option name="y" value="-1440" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -331,6 +380,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -425,15 +476,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="cors&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/initializers/cors.rb&#10;applica&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/application.rb&#10;routes&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/routes.rb&#10;session&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/app/views/devise/sessions&#10;devise&#9;null&#9;null&#10;assets&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/app/assets&#10;prod&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/environments/production.rb&#10;application.js&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/app/assets/javascripts/application.js&#10;header&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/app/views/partials/_header.haml&#10;favicon&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/public/favicon.ico&#10;application.rb&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/application.rb&#10;production&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/environments/production.rb&#10;lib&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/rellax/lib&#10;route&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/rellax/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="schema&#9;FILE&#9;file:///Users/apple/Documents/Rellax-WEB/db/schema.rb&#10;see&#9;FILE&#9;file:///Users/apple/Documents/Rellax-WEB/db/seeds.rb&#10;cors&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/initializers/cors.rb&#10;applica&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/application.rb&#10;routes&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/routes.rb&#10;session&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/app/views/devise/sessions&#10;devise&#9;null&#9;null&#10;assets&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/app/assets&#10;prod&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/environments/production.rb&#10;application.js&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/app/assets/javascripts/application.js&#10;header&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/app/views/partials/_header.haml&#10;favicon&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/public/favicon.ico&#10;application.rb&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/application.rb&#10;production&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/Rellax-WEB/config/environments/production.rb&#10;lib&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/rellax/lib&#10;route&#9;FILE&#9;file:///media/rares/DATA/MyProjects/Personal/rellax/config/routes.rb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../vue/hello-world" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -577,6 +626,7 @@
       <workItem from="1536170917844" duration="16018000" />
       <workItem from="1536684228450" duration="14000" />
       <workItem from="1536684254553" duration="5085000" />
+      <workItem from="1537857125995" duration="319000" />
     </task>
     <task id="LOCAL-00001" summary="Fix design issues">
       <created>1536185443699</created>
@@ -589,15 +639,16 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30532000" />
+    <option name="totallyTimeSpent" value="30851000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1248" y="1465" width="960" height="1055" extended-state="4" />
+    <frame x="-460" y="-1440" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.32932165" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49919486" visible="true" weight="0.12240829" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" sideWeight="0.50080514" side_tool="true" weight="0.13500534" />
+      <window_info anchor="bottom" id="Messages" weight="0.20385471" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32900432" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.43506494" />
@@ -745,7 +796,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/confirmations/new.html.erb" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20180905191316_change_track_duration_from_string_to_float.rb" />
-    <entry file="das://a55e6a8c-3243-45e5-9fea-6e91742c0bd6/database/rellax_development/schema/public/table/tracks" />
     <entry file="file://$PROJECT_DIR$/db/migrate/20180905185102_add_duraton_to_track.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -831,27 +881,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a55e6a8c-3243-45e5-9fea-6e91742c0bd6/database/rellax_development/schema/public/table/tracks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a55e6a8c-3243-45e5-9fea-6e91742c0bd6/database/rellax_development/schema/public/table/tracks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a55e6a8c-3243-45e5-9fea-6e91742c0bd6/database/rellax_development/schema/public/table/tracks">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/tracks/show.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -922,24 +951,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/cors.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/cors.rb" />
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="17" lean-forward="true" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
+        <state relative-caret-position="1065">
           <caret line="71" column="20" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/application.rb">
+    <entry file="file://$PROJECT_DIR$/db/schema.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        <state relative-caret-position="165">
+          <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
