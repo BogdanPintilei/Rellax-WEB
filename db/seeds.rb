@@ -16,5 +16,7 @@ Track.create([
                { track_name: 'Track', track_description: 'Description', track_image: 'https://idk', track_audio: 'https://idk2',
                  track_metering_levels: [1, 2, 3, 4, 5] },
                { track_name: 'Track', track_description: 'Description', track_image: 'https://idk', track_audio: 'https://idk2',
+                 track_metering_levels: [1, 2, 3, 4, 5] },
+               { track_name: 'Track', track_description: 'Description', track_image: 'https://idk', track_audio: 'https://idk2',
                  track_metering_levels: [1, 2, 3, 4, 5] }
              ])
